@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
-
+import {FormsModule} from "@angular/forms";
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +15,7 @@ import { ContentComponent } from './content/content.component';
     ContentComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, FormsModule,
     AppRoutingModule
   ],
   providers: [],

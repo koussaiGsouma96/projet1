@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TpAngular';
+  name: string = "";
+ 
+  onClick($event : any) {
+
+    console.log("ok is clicked", $event)
+    
+    }
 }
